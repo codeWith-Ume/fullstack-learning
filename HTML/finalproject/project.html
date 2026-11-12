@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Shop</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: darkolivegreen;
+            color: white;
+            padding: 15px 30px;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 10px 30px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section, article {
+            margin-bottom: 30px;
+        }
+
+        #about img {
+            display: block;
+            max-width: 100%;
+            width: 400px;
+            margin-top: 10px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            width: 240px;
+            padding: 15px;
+            border: 1px solid gray;
+            border-radius: 8px;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #eee;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mini Book Shop</h1>
+    </header>
+
+    <nav>
+        <a href="project.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>Welcome to our mini online book store</h2>
+            <p>From here you can buy book easily..</p>
+            <img src="bookstore.webp" alt="Bookstore">
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="container">
+                <div class="card">
+                    <h3>My Girlhood</h3>
+                    <p>This book is an autobiography written by Taslima. Price of this book is 250 Rs.</p>
+                    <a href="#">Buy now</a>
+                </div>
+                <div class="card">
+                    <h3>Non-violent Communication</h3>
+                    <p>By this book you can improve your communication and problem solving. Price of this book is 240 Rs.</p>
+                    <a href="#">Buy now</a>
+                </div>
+                <div class="card">
+                    <h3>I Too Had a Love Story</h3>
+                    <p>This is a wonderful love story book you must like it. Price of this book is 300 Rs.</p>
+                    <a href="#">Buy now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="priceList">
+            <h2>Price List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Book Name</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>My Girlhood</td>
+                        <td>250</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>Non-violent Communication</td>
+                        <td>240</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>I Too Had a Love Story</td>
+                        <td>300</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Skills You Can Build From These Books</h2>
+            <ul>
+                <li>Emotional intelligence</li>
+                <li>Communication</li>
+                <li>Problem Solving</li>
+                <li>Understanding</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Steps of Buying Books</h2>
+            <ol>
+                <li>Add to cart</li>
+                <li>Fill details</li>
+                <li>Confirm</li>
+            </ol>
+        </section>
+
+        <article>
+            <h2>Get high-quality books at a very low cost</h2>
+            <a href="#">Read More</a>
+        </article>
+    </main>
+
+    <footer>
+        &copy; 2026 Mini Shop
+    </footer>
+</body>
+</html>
