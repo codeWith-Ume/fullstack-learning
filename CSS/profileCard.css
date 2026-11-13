@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+}
+
+#profile {
+    max-width: 300px;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 8px grey;
+}
+
+#profile .card h2 {
+    color: darkblue;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card ul li {
+    list-style: none;
+}
+
+.card ul li:first-child {
+    background-color: lightyellow;
+}
+
+a {
+    color: rgb(250, 11, 51);
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
