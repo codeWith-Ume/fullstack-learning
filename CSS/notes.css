@@ -1,0 +1,29 @@
+body{
+    background-color: #fff;
+}
+.note{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+}
+.tip{
+    color: darkgreen;
+    font-style: italic;
+    background-color: #efefef;
+    padding: 10px;
+}
+h1{
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: #d1c40b;
+}
+a{
+    color: rgb(124, 21, 3);
+    text-decoration: double;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    font-size: 14px;
+}
