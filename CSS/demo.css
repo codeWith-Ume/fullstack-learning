@@ -1,0 +1,9 @@
+p {
+    color: blue;
+}
+.card p {
+    color: green;
+}
+#box p {
+    color: red;
+}
