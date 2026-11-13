@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: conter;
+    padding: 16px;
+    background-color: blueviolet;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+.menu a:hover {
+    color: #f1c40f;
+    text-decoration: underline;
+}
