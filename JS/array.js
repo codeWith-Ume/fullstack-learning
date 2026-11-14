@@ -32,3 +32,6 @@ console.log(students)
 //finding the length
 console.log(students.length)
 
+//Access the last element
+console.log(students[students.length-1])
+
