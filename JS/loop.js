@@ -41,3 +41,14 @@ for (let i = 1; i <= 5; i ++){
     }
     console.log()
 }
+
+
+// while loop odd numbers till 15
+let i = 1
+
+while (i <= 15) {
+    if (i % 2 === 1){
+        console.log(i)
+    }
+    i++
+}
