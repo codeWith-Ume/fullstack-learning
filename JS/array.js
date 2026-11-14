@@ -16,3 +16,19 @@ console.log(students)
 //add element in specific position
 students.splice(1,0,"ball")
 
+//removing items(from last)
+students.pop()
+console.log(students)
+
+//removing items (from beggining)
+students.shift()
+console.log(students)
+
+//remove from a specific position
+students.splice(1,1)
+console.log(students)
+
+
+//finding the length
+console.log(students.length)
+
