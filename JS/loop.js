@@ -35,7 +35,7 @@ for (let i = 10; i >= 1; i--){
 }
 
 //star pattern 5line
-for (i = 1; i <= 5; i ++){
+for (let i = 1; i <= 5; i ++){
     for (j = 1; j <= i; j++){
         process.stdout.write("*");
     }
