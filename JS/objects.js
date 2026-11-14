@@ -14,3 +14,7 @@ console.log(student.name)
 
 //Bracket notation
 console.log(student["age"])
+
+//Adding new property
+student.city = "Raigarh"
+console.log(student)
