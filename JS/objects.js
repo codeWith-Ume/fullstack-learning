@@ -18,3 +18,7 @@ console.log(student["age"])
 //Adding new property
 student.city = "Raigarh"
 console.log(student)
+
+//Updating a value
+student.age = 23;
+console.log(student.age)
