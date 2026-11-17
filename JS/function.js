@@ -28,7 +28,12 @@
 // console.log(resultofMulti)
 
 //arrow function
-const multiply = (a, b) => {
-    return a * b
+// const multiply = (a, b) => {
+//     return a * b
+// }
+// console.log(multiply(10,30))
+
+const square = (number) => {
+    return number * number
 }
-console.log(multiply(10,30))
+console.log(square(68))
