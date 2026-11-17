@@ -32,13 +32,25 @@
 // console.log(result)
 
 // object.entries() returns both key and value in array
-let employee = {
-    name: "Rahul",
-    role: "Developer",
-    salary: 30000
+// let employee = {
+//     name: "Rahul",
+//     role: "Developer",
+//     salary: 30000
+// };
+
+// let result = Object.entries(employee)
+// console.log(result)
+
+//object.assign()
+let person = {
+    name: "Ume",
+    age: 21
 };
 
-let result = Object.entries(employee)
-console.log(result)
+let education = {
+    degree: "BSc",
+    subject: "Botany"
+};
 
-
+Object.assign(person, education)
+console.log(person)
