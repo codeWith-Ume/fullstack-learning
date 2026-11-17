@@ -10,13 +10,24 @@
 // console.log(result)
 
 // exercise 
-let mobile = {
-    brand: "Samsung",
-    model: "Galaxy S24",
-    price: 60000,
-    color: "Black"
+// let mobile = {
+//     brand: "Samsung",
+//     model: "Galaxy S24",
+//     price: 60000,
+//     color: "Black"
+// };
+
+// let result = Object.keys(mobile)
+// console.log(result)
+
+// Object.values()
+let laptop = {
+    brand: "Lenovo",
+    ram: "8GB",
+    storage: "512GB",
+    price: 50000
 };
 
-let result = Object.keys(mobile)
+let result = Object.values(laptop)
 console.log(result)
 
