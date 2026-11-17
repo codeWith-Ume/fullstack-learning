@@ -6,3 +6,9 @@ function sayhello(){
 sayhello()
 sayhello()
 sayhello()
+//function with parameter
+function greet(name){
+    console.log("Hello " + name)
+}
+greet("Ume")
+greet("Zuzu")
