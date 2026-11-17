@@ -12,3 +12,10 @@ function greet(name){
 }
 greet("Ume")
 greet("Zuzu")
+// function with return
+function add(a, b) {
+    return a + b
+}
+
+let result = add(10, 20)
+console.log(result)
