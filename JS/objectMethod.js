@@ -69,12 +69,16 @@
 // console.log(laptop)
 
 // Object.hasOwn()  check true or false i mean particular property exists or not
-let student = {
-    name: "Ume",
-    age: 22,
-    course: "JavaScript"
-};
+// let student = {
+//     name: "Ume",
+//     age: 22,
+//     course: "JavaScript"
+// };
 
-console.log(Object.hasOwn(student, "name"));
-console.log(Object.hasOwn(student, "city"));
+// console.log(Object.hasOwn(student, "name"));
+// console.log(Object.hasOwn(student, "city"));
 
+// Object.is()
+console.log(Object.is(10, 10));
+console.log(Object.is(10, 20));
+console.log(Object.is("Hello", "Hello"));
