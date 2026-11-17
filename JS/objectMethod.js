@@ -42,15 +42,28 @@
 // console.log(result)
 
 //object.assign()
-let person = {
-    name: "Ume",
-    age: 21
+// let person = {
+//     name: "Ume",
+//     age: 21
+// };
+
+// let education = {
+//     degree: "BSc",
+//     subject: "Botany"
+// };
+
+// Object.assign(person, education)
+// console.log(person)
+
+//object.freeze()
+let laptop = {
+    brand: "Lenovo",
+    price: 50000
 };
 
-let education = {
-    degree: "BSc",
-    subject: "Botany"
-};
+Object.freeze(laptop)
 
-Object.assign(person, education)
-console.log(person)
+laptop.brand = "hp"
+laptop.price = 8765432
+
+console.log(laptop)
