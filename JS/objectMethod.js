@@ -56,14 +56,25 @@
 // console.log(person)
 
 //object.freeze()
-let laptop = {
-    brand: "Lenovo",
-    price: 50000
+// let laptop = {
+//     brand: "Lenovo",
+//     price: 50000
+// };
+
+// Object.freeze(laptop)
+
+// laptop.brand = "hp"
+// laptop.price = 8765432
+
+// console.log(laptop)
+
+// Object.hasOwn()  check true or false i mean particular property exists or not
+let student = {
+    name: "Ume",
+    age: 22,
+    course: "JavaScript"
 };
 
-Object.freeze(laptop)
+console.log(Object.hasOwn(student, "name"));
+console.log(Object.hasOwn(student, "city"));
 
-laptop.brand = "hp"
-laptop.price = 8765432
-
-console.log(laptop)
