@@ -19,3 +19,10 @@ function add(a, b) {
 
 let result = add(10, 20)
 console.log(result)
+
+//exercise
+function multiply(a, b) {
+    return a * b
+}
+let resultofMulti = multiply(3, 70)
+console.log(resultofMulti)
